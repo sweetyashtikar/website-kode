@@ -1,0 +1,42 @@
+  .about-description {
+    font-size: 0.9rem;
+    color: #140e13;
+  }
+  .about-title{
+    font-size: 0.9rem;
+    color: #5c2048;
+    //text-align: right;
+    //text-align: left ;
+    text-align: center;
+}
+  .about-description-body{
+    font-size: 0.9rem;
+    color: black;
+    text-align: center;
+
+  }
+  h1{
+    font-style:bold;
+    font-weight: 300px;
+    animation-delay: 3ms;
+  }
+
+.about-container {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  &:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: pink;
+    opacity: 0;
+  }
+}
+
